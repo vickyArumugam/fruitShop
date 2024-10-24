@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu {
+  @apply text-slate-500 text-lg hover:bg-green-500 px-4 py-2 hover:rounded-full hover:text-white transform ease-in-out duration-150 border-green-500;
+}
+.btnStyle {
+  @apply font-body border border-slate-300 py-3 px-16 rounded-full transform hover:scale-110 duration-100 my-3 md:my-0 m-2;
+}
